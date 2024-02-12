@@ -7,7 +7,7 @@ body{
     padding: 20px;
     display: flex;
     flex-flow: row wrap;
-    justify-content:flex-start;
+    justify-content:center;
     align-content: center;
     width: 80%;
     height: 600px;
@@ -19,9 +19,26 @@ body{
     color: black;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     line-height: 120px;
     text-align: center;
     margin: 5px;
+    overflow: hidden;
+}
+.c1{
+    background: lightblue;
+    order: 3;
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+.c2{
+    background: lightcoral;
+    order: 2;
+    flex-grow: 5;
+}
+.c3{
+    background: lightgreen;
+    order: 1;
+    flex-grow: 1;
 }
